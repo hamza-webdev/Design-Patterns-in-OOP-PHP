@@ -1,0 +1,30 @@
+{
+    "name": "ay023176/design-patterns-in-oop-php",
+    "description": "Course of design pattern in php",
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "squizlabs/php_codesniffer": "^3.7",
+        "symfony/console": "^6.1",
+        "symfony/maker-bundle": "^1.43",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2"
+    },
+    "require-dev": {
+        "symfony/maker-bundle": "^1.43"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ay023176\\DesignPatternsInOopPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hamza"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
